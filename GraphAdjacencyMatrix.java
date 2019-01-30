@@ -15,12 +15,6 @@ public class GraphAdjacencyMatrix<E> implements GraphAdjacencyMatrixInterface<E>
 	Queue<Integer> traversalOrderBFS = new LinkedList<Integer>();
 	Queue<Integer> traversalOrderDFS = new LinkedList<Integer>();
 	
-	
-	//This is new
-	int x=0;
-	x+=4;
-	
-	
 	@SuppressWarnings("unchecked")
 	public GraphAdjacencyMatrix(int n) 
 	{
